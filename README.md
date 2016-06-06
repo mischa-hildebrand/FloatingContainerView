@@ -6,6 +6,10 @@ with a horizontal spacing as specified by the `columnSpacing` property.
 If the view doesn't fit into the same row because its width would exceed
 the container bounds it floats into the next row and so on.
 
+**Note:** If the subviews you want to display look very similar or if you want to display
+a large number of subviews **you should consider using a `UICollectionView` instead**
+as it will improve the performance and provide a clean data source and delegate protocol.
+
 ## Usage:
 
 You can add the subviews either in Interface Builder or in code.
