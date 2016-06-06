@@ -23,5 +23,7 @@ The subviews will be arranged *in the order in which they were added to the cont
 When you add the subviews in Interface Builder please be aware that each time you 
 move a view to a new location it is internally removed from and added back to the 
 container.
+
+### Example:
   
 ![Screenshot](https://github.com/mischa-hildebrand/FloatingContainerView/blob/master/FloatingContainerViewScreenshot_nonRetina.png)
