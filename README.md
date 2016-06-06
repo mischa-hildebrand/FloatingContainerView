@@ -16,6 +16,12 @@ Either way make sure that:
 
 You can control the horizontal and vertical spacing
 through the corresponding properties `columnSpacing` and `rowSpacing`.  
-  
+
+### Important:
+
+The subviews will be arranged *in the order in which they were added to the container*.
+When you add the subviews in Interface Builder please be aware that each time you 
+move a view to a new location it is internally removed from and added back to the 
+container.
   
 ![Screenshot](https://github.com/mischa-hildebrand/FloatingContainerView/blob/master/FloatingContainerViewScreenshot_nonRetina.png)
