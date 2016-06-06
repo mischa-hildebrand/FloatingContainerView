@@ -15,6 +15,7 @@ Either way make sure that:
     (either set through constraints or manual positioning)  
 
 You can control the horizontal and vertical spacing
-through the corresponding properties `columnSpacing` and `rowSpacing`.
-
+through the corresponding properties `columnSpacing` and `rowSpacing`.  
+  
+  
 ![Screenshot](https://github.com/mischa-hildebrand/FloatingContainerView/blob/master/FloatingContainerViewScreenshot_nonRetina.png)
